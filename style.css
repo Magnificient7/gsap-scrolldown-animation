@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.page1{
+    height: 100%;
+    width:  100%;
+    background-color: black;
+}
+
+.nav{
+    height: 90px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: aliceblue;
+
+}
+.nav img{
+    height: 60px;
+    width: 140px;
+
+}
+.nav .nav2{
+    margin-right: 180px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.nav .nav3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.nav3 img{
+    height: 30px;
+    width:50px;
+}
+.second{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: left;
+    display: flex;
+
+}
+.p1{
+    width: 50%;
+    height: fit-content;
+    
+}
+.p1 h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.sol{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p2{
+    width: 50%;
+    
+}
+.p2 img{
+    height: 110%;
+    width: 80%;
+    margin-left: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.p2 p{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    top: 35%;
+    right:27%;
+    font-weight: 700;
+}
+.p2 input{
+    position: absolute;
+    top: 85%;
+    right:5%;
+    height: 40px;
+    padding-left: 310px;
+    padding-right: 110px;
+    border: solid black 1px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+::placeholder {
+    color: #999; /* Placeholder text color */
+    font-style: italic; /* Placeholder text style */
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  .page2{
+    height: 100%;
+    width:  100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    /* background-color: blue; */
+    gap: 100px;
+    border: solid #fff 3px;
+    border-radius: 15px;
+    color: white;
+}
+.box h1{
+    align-items: center;
+    margin: 20px 40px;
+}
+.box p{
+    align-items: center;
+    margin: 10px 30px;
+}
+
+
+
+
